@@ -1,5 +1,5 @@
-E:\UnrealProject_2D\Dev\Source\SpineUE4\SpineUE4.Build.cs
-E:\UnrealProject_2D\Dev\Plugins\SpinePlugin\Source\SpineEditorPlugin\SpineEditorPlugin.Build.cs
-E:\UnrealProject_2D\Dev\Plugins\SpinePlugin\Source\SpinePlugin\SpinePlugin.Build.cs
-E:\UnrealProject_2D\Dev\Source\SpineUE4.Target.cs
-E:\UnrealProject_2D\Dev\Source\SpineUE4Editor.Target.cs
+D:\Unreal\2D\Dev\Source\SpineUE4\SpineUE4.Build.cs
+D:\Unreal\2D\Dev\Plugins\SpinePlugin\Source\SpinePlugin\SpinePlugin.Build.cs
+D:\Unreal\2D\Dev\Plugins\SpinePlugin\Source\SpineEditorPlugin\SpineEditorPlugin.Build.cs
+D:\Unreal\2D\Dev\Source\SpineUE4.Target.cs
+D:\Unreal\2D\Dev\Source\SpineUE4Editor.Target.cs

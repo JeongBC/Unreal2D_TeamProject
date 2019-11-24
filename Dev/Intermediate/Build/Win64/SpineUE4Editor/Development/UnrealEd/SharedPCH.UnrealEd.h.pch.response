@@ -241,17 +241,17 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "D:\Visual studio 2017\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I E:\UnrealProject_2D\Dev\Intermediate\Build\Win64\SpineUE4Editor\Development\UnrealEd
-/Yc"E:\UnrealProject_2D\Dev\Intermediate\Build\Win64\SpineUE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h"
-/Fp"E:\UnrealProject_2D\Dev\Intermediate\Build\Win64\SpineUE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.pch"
-"E:\UnrealProject_2D\Dev\Intermediate\Build\Win64\SpineUE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.cpp"
-/Fo"E:\UnrealProject_2D\Dev\Intermediate\Build\Win64\SpineUE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/I D:\Unreal\2D\Dev\Intermediate\Build\Win64\SpineUE4Editor\Development\UnrealEd
+/Yc"D:\Unreal\2D\Dev\Intermediate\Build\Win64\SpineUE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h"
+/Fp"D:\Unreal\2D\Dev\Intermediate\Build\Win64\SpineUE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.pch"
+"D:\Unreal\2D\Dev\Intermediate\Build\Win64\SpineUE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.cpp"
+/Fo"D:\Unreal\2D\Dev\Intermediate\Build\Win64\SpineUE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
 /TP
 /GR-
 /W4

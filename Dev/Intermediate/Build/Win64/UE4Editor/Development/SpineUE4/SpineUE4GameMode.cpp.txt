@@ -1,2 +1,2 @@
-e:\unrealproject_2d\dev\source\spineue4\SpineUE4GameMode.h
-E:\UnrealProject_2D\Dev\Intermediate\Build\Win64\UE4Editor\Inc\SpineUE4\SpineUE4GameMode.generated.h
+d:\unreal\2d\dev\source\spineue4\SpineUE4GameMode.h
+D:\Unreal\2D\Dev\Intermediate\Build\Win64\UE4Editor\Inc\SpineUE4\SpineUE4GameMode.generated.h

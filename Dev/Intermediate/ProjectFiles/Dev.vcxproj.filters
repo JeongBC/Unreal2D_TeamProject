@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Dev.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4807293D-7CC3-4145-B3BC-F92F82C89F74}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpineUE4.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpineUE4Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\LICENSE" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{6124EBC1-5C83-418A-AEAE-CAD0752A2D72}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{861B3B86-E624-4A0A-98B1-C70F18DF4296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpinePlugin">
+      <UniqueIdentifier>{14932C82-9DE8-47A3-86F0-EC4BDD4AAED0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpinePlugin\Source">
+      <UniqueIdentifier>{5C1123D3-A961-4B6C-B416-2B84FC2F2D0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpinePlugin\Source\SpineEditorPlugin">
+      <UniqueIdentifier>{C7E17EAB-3919-4949-8F20-8E309EEBF0A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SpinePlugin\Source\SpineEditorPlugin\SpineEditorPlugin.Build.cs">
+      <Filter>Plugins\SpinePlugin\Source\SpineEditorPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\SpinePlugin\Source\SpineEditorPlugin\Private">
+      <UniqueIdentifier>{5D508C2B-EC7F-47B0-995C-775D15C27EFC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpineEditorPlugin\Private\SpineAtlasImportFactory.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpineEditorPlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpineEditorPlugin\Private\SpineEditorPlugin.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpineEditorPlugin\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpineEditorPlugin\Private\SpineEditorPluginPrivatePCH.h">
+      <Filter>Plugins\SpinePlugin\Source\SpineEditorPlugin\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpineEditorPlugin\Private\SpineSkeletonImportFactory.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpineEditorPlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\SpinePlugin\Source\SpineEditorPlugin\Public">
+      <UniqueIdentifier>{94B371FA-4D86-4D42-A32D-25801E7908E5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpineEditorPlugin\Public\SpineAtlasImportFactory.h">
+      <Filter>Plugins\SpinePlugin\Source\SpineEditorPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpineEditorPlugin\Public\SpineEditorPlugin.h">
+      <Filter>Plugins\SpinePlugin\Source\SpineEditorPlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpineEditorPlugin\Public\SpineSkeletonImportFactory.h">
+      <Filter>Plugins\SpinePlugin\Source\SpineEditorPlugin\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\SpinePlugin\SpinePlugin.uplugin">
+      <Filter>Plugins\SpinePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\SpinePlugin\Resources">
+      <UniqueIdentifier>{A7921975-9C6E-4C81-9E4A-9D4B1D749778}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SpinePlugin\Resources\Icon128.png">
+      <Filter>Plugins\SpinePlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\SpinePlugin\Source\SpinePlugin">
+      <UniqueIdentifier>{35899A8A-4BED-4FE2-B447-B8E4AB05433C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\SpinePlugin.Build.cs">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin</Filter>
+    </None>
+    <Filter Include="Plugins\SpinePlugin\Source\SpinePlugin\Private">
+      <UniqueIdentifier>{AAA55E1D-2C26-494A-862E-B84239BE6D84}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SpineAtlasAsset.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SpineBoneDriverComponent.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SpineBoneFollowerComponent.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SpinePlugin.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SpinePluginPrivatePCH.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SpineSkeletonAnimationComponent.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SpineSkeletonComponent.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SpineSkeletonDataAsset.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SpineSkeletonRendererComponent.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SpineWidget.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Private\SSpineWidget.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\SpinePlugin\Source\SpinePlugin\Public">
+      <UniqueIdentifier>{6A02B0F2-CCDE-481B-A499-91211C9D8F43}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\SpineAtlasAsset.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\SpineBoneDriverComponent.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\SpineBoneFollowerComponent.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\SpinePlugin.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\SpineSkeletonAnimationComponent.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\SpineSkeletonComponent.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\SpineSkeletonDataAsset.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\SpineSkeletonRendererComponent.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\SpineWidget.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\SSpineWidget.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp">
+      <UniqueIdentifier>{891318B9-8CD7-4F8B-B6A4-F75C019994B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include">
+      <UniqueIdentifier>{C08275DA-C89B-465F-BF2B-E3C0347DF1EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine">
+      <UniqueIdentifier>{BE320067-0359-4EB8-9D93-629523FBC6D7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Animation.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\AnimationState.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\AnimationStateData.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Atlas.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\AtlasAttachmentLoader.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Attachment.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\AttachmentLoader.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\AttachmentTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\AttachmentType.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\BlendMode.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Bone.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\BoneData.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\BoundingBoxAttachment.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\ClippingAttachment.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Color.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\ColorTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\ConstraintData.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\ContainerUtil.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\CurveTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Debug.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\DeformTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\dll.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\DrawOrderTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Event.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\EventData.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\EventTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Extension.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\HashMap.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\HasRendererObject.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\IkConstraint.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\IkConstraintData.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\IkConstraintTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Json.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\LinkedMesh.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\MathUtil.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\MeshAttachment.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\MixBlend.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\MixDirection.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\PathAttachment.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\PathConstraint.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\PathConstraintData.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\PathConstraintMixTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\PathConstraintPositionTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\PathConstraintSpacingTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\PointAttachment.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Pool.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\PositionMode.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\RegionAttachment.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\RotateMode.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\RotateTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\RTTI.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\ScaleTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\ShearTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Skeleton.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\SkeletonBinary.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\SkeletonBounds.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\SkeletonClipping.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\SkeletonData.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\SkeletonJson.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Skin.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Slot.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\SlotData.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\SpacingMode.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\spine.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\SpineObject.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\SpineString.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\TextureLoader.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Timeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\TimelineType.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\TransformConstraint.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\TransformConstraintData.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\TransformConstraintTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\TransformMode.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\TranslateTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Triangulator.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\TwoColorTimeline.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Updatable.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Vector.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\VertexAttachment.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\VertexEffect.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine\Vertices.h">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\include\spine</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src">
+      <UniqueIdentifier>{8107D471-F4B2-480C-B23B-864A96192403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine">
+      <UniqueIdentifier>{7739C052-B8BD-4F8B-91C5-0BEBB1B13B67}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Animation.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\AnimationState.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\AnimationStateData.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Atlas.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\AtlasAttachmentLoader.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Attachment.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\AttachmentLoader.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\AttachmentTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Bone.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\BoneData.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\BoundingBoxAttachment.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\ClippingAttachment.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\ColorTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\ConstraintData.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\CurveTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\DeformTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\DrawOrderTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Event.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\EventData.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\EventTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Extension.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\IkConstraint.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\IkConstraintData.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\IkConstraintTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Json.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\LinkedMesh.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\MathUtil.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\MeshAttachment.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\PathAttachment.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\PathConstraint.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\PathConstraintData.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\PathConstraintMixTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\PathConstraintPositionTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\PathConstraintSpacingTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\PointAttachment.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\RegionAttachment.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\RotateTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\RTTI.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\ScaleTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\ShearTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Skeleton.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\SkeletonBinary.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\SkeletonBounds.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\SkeletonClipping.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\SkeletonData.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\SkeletonJson.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Skin.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Slot.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\SlotData.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\SpineObject.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\TextureLoader.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Timeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\TransformConstraint.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\TransformConstraintData.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\TransformConstraintTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\TranslateTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Triangulator.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\TwoColorTimeline.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\Updatable.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\VertexAttachment.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine\VertexEffect.cpp">
+      <Filter>Plugins\SpinePlugin\Source\SpinePlugin\Public\spine-cpp\src\spine</Filter>
+    </ClCompile>
+    <Filter Include="Source\SpineUE4">
+      <UniqueIdentifier>{9BC220D2-325D-4CDB-A5A1-F9D6A029FB2A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpineUE4\MySceneComponent.cpp">
+      <Filter>Source\SpineUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpineUE4\MySceneComponent.h">
+      <Filter>Source\SpineUE4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpineUE4\SpineboyCppPawn.cpp">
+      <Filter>Source\SpineUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpineUE4\SpineboyCppPawn.h">
+      <Filter>Source\SpineUE4</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SpineUE4\SpineUE4.Build.cs">
+      <Filter>Source\SpineUE4</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SpineUE4\SpineUE4.cpp">
+      <Filter>Source\SpineUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpineUE4\SpineUE4.h">
+      <Filter>Source\SpineUE4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpineUE4\SpineUE4GameMode.cpp">
+      <Filter>Source\SpineUE4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpineUE4\SpineUE4GameMode.h">
+      <Filter>Source\SpineUE4</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpineUE4\.vs">
+      <UniqueIdentifier>{89983EDC-A318-4896-A898-E600E5E6663A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpineUE4\.vs\ProjectSettings.json">
+      <Filter>Source\SpineUE4\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\SpineUE4\.vs\slnx.sqlite">
+      <Filter>Source\SpineUE4\.vs</Filter>
+    </None>
+    <None Include="..\..\Source\SpineUE4\.vs\VSWorkspaceState.json">
+      <Filter>Source\SpineUE4\.vs</Filter>
+    </None>
+    <Filter Include="Source\SpineUE4\.vs\SpineUE4">
+      <UniqueIdentifier>{C56955D1-D6AE-4A93-866C-BDCB028E6A8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SpineUE4\.vs\SpineUE4\v15">
+      <UniqueIdentifier>{9D0BE21E-93B7-4B04-B83F-99A8C8199E28}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpineUE4\.vs\SpineUE4\v15\Browse.VC.db">
+      <Filter>Source\SpineUE4\.vs\SpineUE4\v15</Filter>
+    </None>
+  </ItemGroup>
+</Project>
